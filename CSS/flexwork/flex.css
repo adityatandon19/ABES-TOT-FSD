@@ -1,6 +1,6 @@
 .box {
      display: flex;
-     border: 1px solid red;
+     border: 4px solid red;
      height: 500px;
      width: 800px;
      margin: 5px;
@@ -15,25 +15,25 @@
      height: 150px;
      width: 150px;
      border: 2px dotted gold;
-     background-color: cadetblue;
+     background-color: red;
 }
 .box2 {
      height: 150px;
      width: 150px;
      border: 2px dotted greenyellow;
-     background-color: cadetblue;
+     background-color: green;
 }
 .box3 {
      height: 150px;
      width: 150px;
      border: 2px dotted ghostwhite;
-     background-color: cadetblue;
+     background-color:yellow;
 }
 .box4 {
      height: 150px;
      width: 150px;
      border: 2px dotted blue;
-     background-color: cadetblue;
+     background-color: magenta;
 }
 /* .box5 {
      height: 150px;
