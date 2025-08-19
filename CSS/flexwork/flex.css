@@ -11,19 +11,23 @@
      height: 150px;
      width: 150px;
      border: 2px dotted gold;
+     background-color: cadetblue;
 }
 .box2 {
      height: 150px;
      width: 150px;
      border: 2px dotted greenyellow;
+     background-color: cadetblue;
 }
 .box3 {
      height: 150px;
      width: 150px;
      border: 2px dotted ghostwhite;
+     background-color: cadetblue;
 }
 .box4 {
      height: 150px;
      width: 150px;
      border: 2px dotted blue;
+     background-color: cadetblue;
 }
