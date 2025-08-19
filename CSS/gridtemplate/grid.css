@@ -11,6 +11,10 @@
      width: 150px;
      border: 2px solid red;
      background-color: pink;
+     grid-column-start: 2;
+     grid-column-end: 5;
+     grid-row-start: 1;
+     grid-row-end: 2; 
 }
 .box2 {
      height: 150px;
