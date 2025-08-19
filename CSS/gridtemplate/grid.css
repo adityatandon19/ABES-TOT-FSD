@@ -7,8 +7,8 @@
      border: 2px solid red;
 }
 .box1 {
-     height: 150px;
-     width: 150px;
+     height: auto;
+     width: auto;
      border: 2px solid red;
      background-color: pink;
      grid-column-start: 2;
@@ -17,20 +17,20 @@
      grid-row-end: 2; 
 }
 .box2 {
-     height: 150px;
-     width: 150px;
+     height: auto;
+     width: auto;
      border: 2px solid red;
      background-color: palevioletred;
 }
 .box3 {
-     height: 150px;
-     width: 150px;
+     height: auto;
+     width: auto;
      border: 2px solid red;
      background-color: gold;
 }
 .box4 {
-     height: 150px;
-     width: 150px;
+     height: auto;
+     width: auto;
      border: 2px solid red;
      background-color: deepskyblue;
 }
