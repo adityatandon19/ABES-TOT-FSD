@@ -5,7 +5,7 @@
      width: 800px;
      margin: 5px;
      background-color: aqua;
-     flex-direction:row-reverse;
+     flex-direction: column;
 }
 .box1 {
      height: 150px;
