@@ -1,14 +1,12 @@
-// let a = 12;
-// let b = "12";
-// if(a===b) {
-//      console.log("Hii....there");
-// }
-// else{
-//      console.log("Welcome to JS");
-// }
+const data = () => {
+    return "Hi, Welcome to FSD";
+};
+console.log(data());
 
-function sum(a, b){
-     return a+b;
-}
-let val=sum(20, 20)
-console.log("sum = " + val)
+const sum = (a, b) => {
+    return a + b;
+};
+console.log(sum(10, 20));
+
+const add = (a, b) => a + b;  // single-line shorthand
+console.log(add(23, 40));
