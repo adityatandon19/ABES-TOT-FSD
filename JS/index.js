@@ -22,7 +22,6 @@
 
 function selectLanguage(lang) {
      let data
-     
      if(lang == "java"){
           function javaCompiler(){
                console.log("Java Compiler is being executed")
