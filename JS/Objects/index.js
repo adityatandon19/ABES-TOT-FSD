@@ -15,6 +15,10 @@ const employee={
           framework2: "Spring"
      }]
 }
-employee.company="Infosys";
-console.log(employee);
+// employee.company="Infosys";
+// console.log(employee);
 // console.log(employee.planguage[0].lang1);
+
+// employee.planguage[1].database1="MongoDB"
+delete employee.eage;
+console.log(employee);
