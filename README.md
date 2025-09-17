@@ -1,5 +1,4 @@
 # ABES-TOT-FSD# FSD-TOT-ASSIGNMENT1-adityatandon19
-
 # Exercise: Create a 'Travel Blog' Webpage
 
 ## Objective:
@@ -17,3 +16,7 @@ To design a single-page travel blog layout using HTML only, practicing images, m
 5. Add an external link to a travel website (e.g., MakeMyTrip, TripAdvisor) that opens in a new tab.
 6. Include an audio or video element (students can use any free MP3/MP4).
 7. At the bottom, add a 'Back to Top' link.
+
+
+
+http://bit.ly/4gqhzoT
