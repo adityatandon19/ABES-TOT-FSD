@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice Assignments Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Slate 900 */
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .code-font {
+            font-family: 'Fira Code', monospace;
+        }
+        .card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .glass-header {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="text-slate-200 p-4 md:p-8 min-h-screen">
+
+    <!-- Header Section -->
+    <header class="max-w-7xl mx-auto mb-10 text-center glass-header p-6 rounded-2xl border border-slate-700 shadow-2xl sticky top-4 z-50">
+        <div class="inline-block p-3 rounded-full bg-yellow-400 text-slate-900 mb-4">
+            <i class="fa-brands fa-js fa-3x"></i>
+        </div>
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-2">JavaScript Practice Assignments</h1>
+        <p class="text-slate-400 text-lg">A roadmap of 10 essential tasks to master DOM manipulation & logic.</p>
+    </header>
+
+    <!-- Grid Container -->
+    <main class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+        <!-- Assignment 1 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-blue-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-blue-400">Assignment 01</span>
+                    <i class="fa-solid fa-keyboard text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Read Input & Display</h3>
+                <p class="text-slate-400 text-sm mb-4">Create a page where a user types their name and gets a greeting.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Requirements</h4>
+                    <ul class="text-xs text-blue-300 space-y-1 code-font">
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> getElementById()</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> .innerHTML</li>
+                        <li class="text-red-400"><i class="fa-solid fa-ban text-[10px] mr-1"></i> No alert()</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 2 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-green-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-green-400">Assignment 02</span>
+                    <i class="fa-solid fa-calculator text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Simple Calculator</h3>
+                <p class="text-slate-400 text-sm mb-4">Take two numbers and perform basic arithmetic operations via buttons.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Requirements</h4>
+                    <ul class="text-xs text-green-300 space-y-1 code-font">
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> One function per button</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> Display result in &lt;p&gt;</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> Number() conversion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 3 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-pink-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-pink-400">Assignment 03</span>
+                    <i class="fa-solid fa-palette text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Change Page Style</h3>
+                <p class="text-slate-400 text-sm mb-4">Modify DOM CSS properties dynamically on button clicks.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Core Concepts</h4>
+                    <ul class="text-xs text-pink-300 space-y-1 code-font">
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> element.style.color</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> .style.fontSize</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> doc.body.style.bg</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 4 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-purple-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-purple-400">Assignment 04</span>
+                    <i class="fa-solid fa-font text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">String Utilities</h3>
+                <p class="text-slate-400 text-sm mb-4">Manipulate user input strings: count, uppercase, and reverse.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Methods</h4>
+                    <ul class="text-xs text-purple-300 space-y-1 code-font">
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> .length property</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> .toUpperCase()</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> .split('').reverse().join('')</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 5 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col row-span-2">
+            <div class="h-2 bg-yellow-500"></div>
+            <div class="p-6 flex-1 flex flex-col">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-yellow-400">Assignment 05</span>
+                    <i class="fa-solid fa-list-check text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">To-Do List</h3>
+                <p class="text-slate-400 text-sm mb-4">A functional list where users can append new items dynamically.</p>
+                
+                <div class="mt-auto bg-slate-900/50 p-4 rounded-lg border border-slate-700/50">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="w-full bg-slate-700 h-2 rounded"></div>
+                        <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
+                    </div>
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Key Logic</h4>
+                    <ul class="text-xs text-yellow-300 space-y-2 code-font">
+                        <li>1. Capture Input value</li>
+                        <li>2. Select &lt;ul&gt; parent</li>
+                        <li>3. Use <code>innerHTML +=</code></li>
+                        <li>4. Append <code>&lt;li&gt;...&lt;/li&gt;</code> string</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 6 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-orange-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-orange-400">Assignment 06</span>
+                    <i class="fa-solid fa-dice text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Number Guessing</h3>
+                <p class="text-slate-400 text-sm mb-4">Generate a random number (1-10) and check user's guess.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Math Logic</h4>
+                    <code class="block text-[10px] text-orange-300 bg-slate-800 p-2 rounded mb-1 code-font">Math.floor(Math.random() * 10) + 1</code>
+                    <p class="text-[10px] text-slate-400">Compare with if/else.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 7 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-gray-200"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-gray-400">Assignment 07</span>
+                    <i class="fa-solid fa-moon text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Light/Dark Mode</h3>
+                <p class="text-slate-400 text-sm mb-4">Toggle themes by changing background and text colors.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Requirements</h4>
+                    <ul class="text-xs text-gray-300 space-y-1 code-font">
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> Button 1: Light Mode</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> Button 2: Dark Mode</li>
+                        <li><i class="fa-solid fa-chevron-right text-[10px] mr-1"></i> Optional: CSS Transition</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 8 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-teal-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-teal-400">Assignment 08</span>
+                    <i class="fa-solid fa-stopwatch text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Live Char Counter</h3>
+                <p class="text-slate-400 text-sm mb-4">Real-time feedback showing total characters as the user types.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Event Listener</h4>
+                    <div class="flex items-center gap-2">
+                        <code class="text-xs text-teal-300 code-font">onkeyup="count()"</code>
+                    </div>
+                    <p class="text-[10px] text-slate-400 mt-1">Read value.length and update UI.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 9 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col">
+            <div class="h-2 bg-indigo-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Assignment 09</span>
+                    <i class="fa-regular fa-images text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Image Switcher</h3>
+                <p class="text-slate-400 text-sm mb-4">Swap the source of an image tag on button click.</p>
+                
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                    <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">DOM Property</h4>
+                    <code class="block text-[10px] text-indigo-300 bg-slate-800 p-2 rounded mb-1 code-font">document.getElementById("img").src = "..."</code>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assignment 10 -->
+        <div class="card bg-slate-800 border border-slate-700 rounded-xl overflow-hidden flex flex-col col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-2">
+            <div class="h-2 bg-red-500"></div>
+            <div class="p-6 flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400">Assignment 10</span>
+                    <i class="fa-solid fa-shield-halved text-slate-500"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Form Validation</h3>
+                <p class="text-slate-400 text-sm mb-4">Validate inputs (Name, Email, Password) before "submitting".</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                        <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">Logic Checks</h4>
+                        <ul class="text-xs text-red-300 space-y-1 code-font">
+                            <li><i class="fa-solid fa-check text-[10px] mr-1"></i> Fields not empty</li>
+                            <li><i class="fa-solid fa-check text-[10px] mr-1"></i> Password >= 6 chars</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                        <h4 class="text-xs font-semibold text-slate-300 mb-2 uppercase">UX / Feedback</h4>
+                        <ul class="text-xs text-red-300 space-y-1">
+                            <li><i class="fa-solid fa-circle-xmark text-[10px] mr-1"></i> Show errors in RED</li>
+                            <li><i class="fa-solid fa-circle-check text-[10px] mr-1"></i> Success: "Form Submitted"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer class="text-center text-slate-500 mt-12 mb-8 text-sm">
+        <p>Master these 10 tasks to build a solid JavaScript foundation.</p>
+    </footer>
+
+</body>
+</html>
