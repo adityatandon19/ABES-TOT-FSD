@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya's Amazon Product Grid</title>
+  <style>
+    .container {
+      display: flex;
+      border: 3px solid red;
+      flex-wrap: wrap;
+      width: 800px;
+    }
+    .box1 {
+      width: 200px;
+      height: 200px;
+      background-color: lightsteelblue;
+      border: 1px solid red;
+    }
+    .box2 {
+      display: grid;
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 100px 100px;
+      border: 1px solid red;
+    }
+    .box2 div {
+      border: 1px solid red;
+      text-align: center;
+      font-size: 12px;
+    }
+    .box2 img {
+      width: 100%;
+      height: 70%;
+      object-fit: cover;
+    }
+    .box3 {
+      width: 200px;
+      height: 200px;
+      background-color: gold;
+      border: 1px solid red;
+    }
+    .box4 {
+      width: 200px;
+      height: 200px;
+      background-color: deepskyblue;
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">Box 1</div>
+
+    <div class="box2">
+      <div>
+        <img src="image1.png" alt="Image 1">
+        <p>Headphones</p>
+      </div>
+      <div>
+        <img src="image2.png" alt="Image 2">
+        <p>Camera Lens</p>
+      </div>
+      <div>
+        <img src="image3.png" alt="Image 3">
+        <p>Shoes</p>
+      </div>
+      <div>
+        <img src="image4.png" alt="Image 4">
+        <p>Shampoo</p>
+      </div>
+    </div>
+
+    <div class="box3">Box 3</div>
+    <div class="box4">Box 4</div>
+  </div>
+</body>
+</html>
